@@ -16,6 +16,7 @@ public class BasicCounter implements Counter{
     public BasicCounter (int val){
      this.count = val;
      this.start = val;
+     //System.err.printf("BasicCounter(%d)\n", val); 
     }
 
     /*increment, add one to the count
