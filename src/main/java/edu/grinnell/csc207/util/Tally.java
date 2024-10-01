@@ -5,10 +5,7 @@ package edu.grinnell.csc207.util;
  */
 public class Tally extends BasicCounter {
   /**
-   * Create a new Tally.
-   *
-   * @param start
-   *   The initial value of the tally.
+   * Create a new Tally starting at 0.
    */
   public Tally() {
     super(0);
